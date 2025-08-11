@@ -21,7 +21,6 @@ C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\scopedcss\bundle\Portfolio.styles.css
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\scopedcss\projectbundle\Portfolio.bundle.scp.css
-C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\compressed\22wp8f1e4x-b9sayid5wm.gz
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\compressed\i8a7oyvh0y-61n19gt1b8.gz
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\compressed\7hmf3ifchj-xtxxf3hu2r.gz
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\compressed\z9ox1p0g2z-bqjiyaj88i.gz
@@ -95,3 +94,4 @@ C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\Portfolio.pdb
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\Portfolio.genruntimeconfig.cache
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\ref\Portfolio.dll
 C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\Portfolio.sourcelink.json
+C:\Users\pontu\Development\Portfolio\obj\Debug\net9.0\compressed\22wp8f1e4x-ecoq3dgwdl.gz

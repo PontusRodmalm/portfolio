@@ -1,0 +1,29 @@
+@page
+@model Portfolio.Pages.ProjectsModel
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<h1 class="h2 fw-bold mb-4">Projects</h1>
+
+<div class="row g-4">
+    @foreach (var p in Model.Items)
+    {
+        <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100">
+                @if (!string.IsNullOrWhiteSpace(p.ImageUrl))
+                {
+                    <img src="@p.ImageUrl" class="card-img-top" alt="@p.Title" />
+                }
+                <div class="card-body">
+                    <h2 class="h5 card-title">@p.Title</h2>
+                    <p class="card-text text-secondary">@p.Description</p>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex gap-2">
+                    <a href="#" class="btn btn-sm btn-dark disabled" aria-disabled="true">Details</a>
+                    <a href="@p.SourceUrl" class="btn btn-sm btn-outline-secondary" target="_blank">Source</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

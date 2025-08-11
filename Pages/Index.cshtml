@@ -4,7 +4,38 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero mb-5">
+    <span class="hero-badge mb-3">Aspiring .NET Developer</span>
+    <h1 class="display-5 fw-bold">Breaking things until they work.</h1>
+    <p class="lead text-secondary mt-3 mb-4">
+        Aspiring .NET developer focused on learning and improving every day.
+    </p>
+
+    <div class="d-flex gap-3">
+        <a class="btn btn-dark btn-lg" asp-page="/Projects">View Projects</a>
+        <a class="btn btn-outline-secondary btn-lg" asp-page="/About">About Me</a>
+    </div>
+</section>
+
+<section>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card card-soft h-100 p-4">
+                <h3 class="h5">.NET & C#</h3>
+                <p class="text-secondary mb-0">Learning to bend C# to my will.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100 p-4">
+                <h3 class="h5">Clean UI</h3>
+                <p class="text-secondary mb-0">If it’s ugly, it’s not done.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100 p-4">
+                <h3 class="h5">Learning Mindset</h3>
+                <p class="text-secondary mb-0">Open to feedback, iterating and improving continuously.</p>
+            </div>
+        </div>
+    </div>
+</section>

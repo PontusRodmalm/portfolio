@@ -1,0 +1,30 @@
+@page
+@model Portfolio.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+
+<div class="row align-items-center g-4">
+    <div class="col-md-7">
+        <h1 class="h2 fw-bold">About Me</h1>
+        <p class="text-secondary">
+            I'm a .NET development student from Sweden.
+        </p>
+        <ul class="text-secondary">
+            @foreach (var skill in Model.Skills)
+            {
+                <li>@skill</li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <div class="card card-soft p-4">
+            <h2 class="h5">Quick Facts</h2>
+            @foreach (var fact in Model.Facts)
+            {
+                <p class="mb-2"><strong>@fact.Label:</strong> @fact.Value</p>
+            }
+        </div>
+    </div>
+</div>

@@ -1,31 +1,31 @@
-html {
-  font-size: 14px;
+:root{
+  --radius: 1.25rem;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.hero{
+  background: linear-gradient(180deg,#f8f9fa, #ffffff);
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: var(--radius);
+  padding: 4rem 2rem;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.hero-badge{
+  display:inline-block;
+  background:#eef3ff;
+  color:#3b5bdb;
+  border-radius:999px;
+  padding:.35rem .75rem;
+  font-size:.85rem;
+  font-weight:600;
 }
 
-body {
-  margin-bottom: 60px;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.card-soft{
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
