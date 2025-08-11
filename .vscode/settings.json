@@ -1,0 +1,13 @@
+{
+  // Formatera kod automatiskt vid spar
+  "editor.formatOnSave": true,
+
+  // Dölj mappar som vi inte behöver se i projektträdet
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+
+  // Använd nya C#-språkservern istället för gamla OmniSharp
+  "dotnet.server.useOmnisharp": false
+}
