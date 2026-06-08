@@ -427,3 +427,32 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# =========================================================================
+# Angular / Node.js Artefakter & Beroenden
+# =========================================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.vite/
+# =========================================================================
+# .NET Exekverings- & Kompileringsfiler
+# =========================================================================
+backend/bin/
+backend/obj/
+backend.Tests/bin/
+backend.Tests/obj/
+# =========================================================================
+# KÄNSLIGA HEMLIGHETER — Får ALDRIG publiceras i källkodskontroll
+# =========================================================================
+appsettings.Development.json
+appsettings.Production.json
+*.env
+.env.*
+secrets.json
+# =========================================================================
+# Operativsystemspecifika metadatafiler
+# =========================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
