@@ -1,0 +1,16 @@
+<nav class="navbar">
+    <div class="navbar__inner">
+        <a href="/" class="navbar__logo">PR<span class="accent">.</span></a>
+        <div class="navbar__links" [class.navbar__links--open]="menuOpen">
+            <a href="#about" (click)="closeMenu()">About</a>
+            <a href="#skills" (click)="closeMenu()">Skills</a>
+            <a href="#projects" (click)="closeMenu()">Projects</a>
+            <a href="#contact" (click)="closeMenu()">Contact</a>
+        </div>
+        <a href="/assets/cv.pdf" target="_blank" class="navbar__cta" rel="noopener">Resume.pdf</a>
+        <button class="navbar__hamburger" (click)="toggleMenu()" [attr.ariaexpanded]="menuOpen"
+            aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
