@@ -1,1 +1,30 @@
-<p>projects works!</p>
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-num">02</span>
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects__grid">
+            @for (project of projects; track project.title) {
+            <div class="project-card" [class.project-card--wide]="project.featured">
+                <div class="project-card__left">
+                    <div class="project-card__tag">{{ project.tag }}</div>
+                    <h3 class="project-card__title">{{ project.title }}</h3>
+                    <p class="project-card__desc">{{ project.description }}</p>
+                    <div class="project-card__techs">
+                        @for (tech of project.technologies; track tech) {
+                        <span class="tech-pill">{{ tech }}</span>
+                        }
+                    </div>
+                </div>
+                @if (project.featured) {
+                <div class="project-card__preview">
+                    <pre>{{ project.codePreview }}</pre>
+                </div>
+                }
+            </div>
+            }
+        </div>
+    </div>
+</section>

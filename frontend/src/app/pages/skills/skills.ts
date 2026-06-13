@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SkillBar } from '../../components/skill-bar/skill-bar';
-
 export interface Skill {
   tag: string;
   name: string;
@@ -12,8 +10,8 @@ export interface Skill {
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [CommonModule, SkillBar],
-  templateUrl: './skills.component.html', 
+  imports: [CommonModule], 
+  templateUrl: './skills.html',
   styleUrl: './skills.scss'
 })
 export class SkillsComponent { 
