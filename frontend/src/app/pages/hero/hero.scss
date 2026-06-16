@@ -1,0 +1,12 @@
+.hero {
+ padding: 80px 40px; max-width: 1100px; margin: 0 auto;
+ 
+ &__inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+ 
+ &__title { font-size: 88px; font-weight: 500; line-height: 0.9; margin-bottom: 28px; }
+ 
+ &__code {
+    background: var(--color-surface); padding: 28px;
+    border-left: 3px solid var(--color-accent);
+ }
+}
